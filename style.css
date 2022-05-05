@@ -39,15 +39,13 @@
 .profile .profile-image {
   width: 100%;
   border-radius: 100%;
-  border: 8px solid #1b2631;
 }
 
 .name {
   color: #d6dbdf;
-  font-size: 26px;
+  font-size: 1.5rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .profession {
@@ -94,7 +92,6 @@
 
 .right-title {
   color: #eeeeee;
-  font-size: 20px;
 }
 
 .gap {
@@ -103,4 +100,39 @@
 .about-me-contents {
   font-size: 18px;
   color: #eeeeee;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 2rem;
+  color: #f1f8fd;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.exp-time-period,
+.education-time-period,
+.awards-time-period {
+  font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+  font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+  font-size: 16px;
+  padding-left: 5px;
 }
