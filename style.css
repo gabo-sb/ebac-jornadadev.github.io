@@ -64,6 +64,7 @@ body {
   text-align: center;
   font-weight: bold;
   padding: 1rem 0;
+
 }
 
 .profession {
@@ -142,6 +143,7 @@ body {
   align-items: center;
   padding: 2rem 0;
   position: relative;
+
 }
 
 .gap {
@@ -170,6 +172,7 @@ body {
   letter-spacing: 1px;
   color: #fdb44b;
   padding-bottom: 0.4rem;
+
 }
 
 .exp-time-period,
@@ -187,6 +190,7 @@ body {
   letter-spacing: 1px;
   color: #fdb44b;
   padding-bottom: 0.4rem;
+
 }
 
 .exp-desc,
@@ -197,4 +201,5 @@ body {
   letter-spacing: 1px;
   line-height: 1.5rem;
   border-left: 3px solid #a5a3a3;
+
 }
